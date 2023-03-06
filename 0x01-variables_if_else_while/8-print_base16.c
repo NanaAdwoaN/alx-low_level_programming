@@ -3,7 +3,7 @@
 /**
  * main - Prints numbers between  to 9 and letters between a to f
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,4 +20,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-	
