@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  *main - Prints numbers between 0 to 9 and letters between a to f.
@@ -7,9 +7,17 @@ include <stdio.h>
  */
 int main(void)
 {
-	int i;
-	for
+	int n;
 
-	putchar(i);
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}	
+	}
+	putchar('\n');
+	return (0);
 }
-
